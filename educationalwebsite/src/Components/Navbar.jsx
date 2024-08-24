@@ -2,18 +2,6 @@ import React, { useEffect, useState, useCallback } from "react";
 import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
-  // const [sticky, setSticky] = useState(false);
-
-  // const handleScroll = useCallback(() => {
-  //   setSticky(window.scrollY > 50);
-  // }, []);
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, );
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
